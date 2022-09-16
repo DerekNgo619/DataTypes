@@ -8,9 +8,11 @@ public class RenameThisClass
         i = 10;
         f = i + f;
         flag = !flag;
-        ++i;
-        System.out.print("i");
-        System.out.print("f");
-        System.out.print("flag");
+        while (i<5) {
+            System.out.print(++i);
+        }
+        System.out.println(i);
+        System.out.println(f);
+        System.out.println(flag);
     }
 }
