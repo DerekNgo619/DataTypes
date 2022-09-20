@@ -17,6 +17,11 @@ public class RenameThisClass
         String string1 = "I am a string";
         String string2 = string1;
         String string3 = "I am also a string";
-        boolean stringsEqual = string1.equalsIgnoreCase(string3);
+        boolean stringsEqual = string1.equals(string3);
+        String[] Array = {"Alpha","Bravo","Delta","Echo"};
+        for (String i = 0;i < Array.length; i++) {
+            Array[i] = Array[1] * 2;
+            System.out.println(Array[1]);
+        }
     }
 }
